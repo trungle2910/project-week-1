@@ -1,0 +1,84 @@
+:root {
+    box-sizing: border-box;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+header nav {
+    background-color: silver;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+header nav a {
+    margin-left: 20px;
+    color: blue;
+  }
+header nav i {
+    margin: 10px;
+    font-size: large;
+
+}
+header nav div a:hover {  
+    color: red;
+}
+/* body */
+
+.logo  {
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0px;
+    right: 35vw;
+    left: 35vw;
+    height: 15vw;
+    width: 30vw;
+    
+}
+/* bookshelf */
+main form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    background-image: url('https://www.dhresource.com/0x0s/f2-albu-g9-M01-FC-90-rBVaWF0TG2qAMPtzAAJaTDJ0lp8604.jpg/3d-bookshelf-bookcase-background-wall-modern.jpg');
+}
+ .bookshelf{
+    position: relative;
+    height: 30vw;
+    width: 20vw;
+    margin: 50px;
+    background-color: seashell;
+}
+.bookshelf .cover  {
+    height: 25vw;
+    width: 20vw;
+    position: absolute;
+    top: 0px;
+}
+.buy {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    font-size: medium;
+    color: blue;
+}
+.review {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    color: blue;
+}
+.buy:hover {
+    color: tomato;
+}
+.review:hover {
+    color: tomato;
+}
