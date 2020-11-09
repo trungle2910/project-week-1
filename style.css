@@ -37,6 +37,9 @@ header nav i {
 header nav div a:hover {  
     color: red;
 }
+header nav div i:hover {  
+    color: yellow;
+}
 /* body */
 
 .logo  {
