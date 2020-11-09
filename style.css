@@ -16,7 +16,8 @@ body {
       );
 }
 
-header nav {
+header nav {  
+    background-color: lightcyan;
     display: flex;
     justify-content: flex-end;
     padding: 10px 20px;
