@@ -14,10 +14,12 @@ body {
         rgba(238, 174, 202, 1) 0%,
         rgba(148, 187, 233, 1) 100%
       );
+    /* cssgradient.io */
 }
-
+ 
 header nav {  
-    background-color: lightcyan;
+    background: rgb(36,0,26);
+background: linear-gradient(90deg, rgba(36,0,26,1) 0%, rgba(9,121,76,1) 18%, rgba(217,0,255,1) 100%);
     display: flex;
     justify-content: flex-end;
     padding: 10px 20px;
